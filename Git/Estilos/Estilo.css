@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f7f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #39cad2;
+    color: rgb(1, 145, 255);
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Disposición vertical de los miembros */
+.team {
+    display: flex;
+    flex-direction: column; /* Disposición vertical */
+    align-items: flex-start; /* Alineación a la izquierda */
+    margin: 20px;
+}
+
+
+
+img {
+    border-radius: 50%;
+    width: 60px; /* Deja que el navegador ajuste automáticamente */
+    height: 60px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 1em;
+    color: #000000;
+}
